@@ -1,6 +1,6 @@
 use godot::prelude::*;
 
-struct Grink;
+struct GodotRustInk;
 
 #[gdextension]
-unsafe impl ExtensionLibrary for Grink {}
+unsafe impl ExtensionLibrary for GodotRustInk {}
