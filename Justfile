@@ -12,3 +12,6 @@ copy-to-addon target type bin_name:
     addon_dir="godot/addons/godot-rust-ink/bin/{{ type }}"
     mkdir -p "$addon_dir"
     cp rust/target/{{ target }}/{{ type }}/{{ bin_name }} "$addon_dir"
+
+build-ink:
+    inklecate -o godot/story.json ink/main.ink 

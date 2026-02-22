@@ -30,4 +30,8 @@ impl IEditorImportPlugin for StoryImportPlugin {
     fn get_resource_type(&self) -> GString {
         "JSON".into()
     }
+
+    fn get_import_options(&self, _path: GString, _preset_index: i32) -> Array<VarDictionary> {
+        Array::new()
+    }
 }

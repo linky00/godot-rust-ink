@@ -1,0 +1,10 @@
+[gd_scene format=3 uid="uid://danhtu3820arf"]
+
+[ext_resource type="Script" uid="uid://s4r58meikw7u" path="res://main.gd" id="1_0xm2m"]
+[ext_resource type="JSON" path="res://story.json" id="1_ig7tw"]
+
+[node name="Main" type="Node" unique_id=100596606]
+script = ExtResource("1_0xm2m")
+
+[node name="InkStoryInstance" type="InkStoryInstance" parent="." unique_id=2110153674]
+ink_json = ExtResource("1_ig7tw")
